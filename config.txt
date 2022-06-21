@@ -1,0 +1,12 @@
+[Basic_info]
+sport_list = Walk; Nordic, Walk; Hike
+years = 2021
+months = January
+
+# For now, only going from NOW backwards, no possibility to select a particular month and year
+# Individual sport activities need to be separated by a semicolon
+# Years can be either a plain number or a list of numbers separated by commas with no brackets.
+# Reading starts in the current month and year and go backwards
+# If the month being processed is not in this list, it is skipped
+# Note, that it is not possible for now to get only one month from a particular year -
+# if you want Jan21, you get Jan 22 as well.
