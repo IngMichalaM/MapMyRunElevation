@@ -58,4 +58,4 @@ _selenium.common.exceptions.WebDriverException: Message: target frame detached_
 
 ToDO
 -------------
-To do the particular month and year directly without the need to start in the current now and going back.
+Go directly to a particular month and year without the need to start in the current month and year and going back in time.
