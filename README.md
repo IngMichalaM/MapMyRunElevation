@@ -53,8 +53,9 @@ If any of the info is missing, a ValueError is raised.
 
 Problems
 -------------
-Sometimes, there is a problem when dealing with th cookies window and sometimes not. No idea why.
+- Sometimes, there is a problem when dealing with th cookies window and sometimes not. No idea why.
 _selenium.common.exceptions.WebDriverException: Message: target frame detached_
+- From time to time a maintenance window appears while going through individual months. For now a refresh of the page is implemented and it works.
 
 ToDO
 -------------
