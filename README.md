@@ -22,7 +22,7 @@ How it is done
 You only have to define a csv file, where the result will be saved.
 Then it automatically
 - load the webpage mapmyrun.com
-- pass the cookie popup window
+- get over the cookie popup window
 - log in (you can either hardcode your credentials in info_user file, or, if you leave it empty,
   you will be asked to type it: email into the console, password into a popup window.)
 - **sometimes a captcha appears, this you have to pass yourself**
@@ -59,9 +59,10 @@ If any of the info is missing, a ValueError is raised.
 
 Problems
 -------------
-Sometimes, there is a problem when dealing with th cookies window and sometimes not. No idea why.
+- Sometimes, there is a problem when dealing with th cookies window and sometimes not. No idea why.
 _selenium.common.exceptions.WebDriverException: Message: target frame detached_
+- From time to time a maintenance window appears while going through individual months. For now a refresh of the page is implemented and it works.
 
 ToDo
 -------------
-To do the particular month and year directly without the need to start in the current now and going back.
+Go directly to a particular month and year without the need to start in the current month and year and going back in time.
