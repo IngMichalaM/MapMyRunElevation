@@ -1,6 +1,12 @@
 Read and sum ELEVATION GAIN for given sport art in the MapMyRun app
 =============
 
+Update 30.1.2023
+------
+There has been some changes in the MapMyRun web pages, and therefore not only the locators
+do not work anymore, but the whole structure of the activities on the Dashboard 
+is different comparing to the situation in 2022. The whole code need to be redone.
+
 About
 ------
 Although the statistics provided by MapMyRun app are great 
@@ -56,6 +62,6 @@ Problems
 Sometimes, there is a problem when dealing with th cookies window and sometimes not. No idea why.
 _selenium.common.exceptions.WebDriverException: Message: target frame detached_
 
-ToDO
+ToDo
 -------------
 To do the particular month and year directly without the need to start in the current now and going back.
