@@ -22,7 +22,7 @@ How it is done
 You only have to define a csv file, where the result will be saved.
 Then it automatically
 - load the webpage mapmyrun.com
-- get over the cookie popup window
+- pass the cookie popup window
 - log in (you can either hardcode your credentials in info_user file, or, if you leave it empty,
   you will be asked to type it: email into the console, password into a popup window.)
 - **sometimes a captcha appears, this you have to pass yourself**
